@@ -98,7 +98,7 @@ seed=0
 for i, (prompt_pos, prompt_neg) in enumerate(zip(prompts_pos, prompts_neg)):
     print('Prompt pair number', i, 'out of', len(prompts_pos))
     print('Positive prompt:', prompt_pos)
-    print('Negative prompt', prompt_neg)
+    print('Negative prompt:', prompt_neg)
 
     controller = VectorStore()
     controller.steer=False
